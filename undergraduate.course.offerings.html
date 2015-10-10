@@ -1,0 +1,216 @@
+<html>
+<head>
+	<title>Undergraduate Course Offerings - Two Year Tentative Schedule</title>
+	<style>
+		.center {
+			margin: auto;
+			width: 60%;
+			border:3px solid #8AC007;
+			padding: 10px;
+		}
+		td, th {
+			padding: 10px;
+			vertical-align: top;
+		}
+		table, th, td {
+		   border: 1px solid black;
+		}		
+		.schedule {
+			display:none;
+			position:absolute;
+			border:1px solid #000;
+			border-radius: 10px;
+			padding: 20px; 
+			background-color: white;
+		}		
+		.OnCampus {
+			background-color: LightCyan;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+
+
+</head>
+<body align="center">
+  <h1>Undergraduate Course Offerings - Two Year Tentative Schedule</h1>
+  <BR>
+	<a href="http://catalog.niu.edu/preview_course_incoming.php?catoid=25&prefix=met,geog" target="_blank">All GEOG and MET courses</a>  &nbsp-&nbsp  
+	<a href="http://niu.edu/geog/courses/geography_course_sequence.shtml" target="_blank">Sample Geography Sequence</a>  &nbsp-&nbsp  
+	<a href="http://niu.edu/geog/courses/meteorology_course_sequence.shtml" target="_blank">Sample Meteorology Sequence</a> &nbsp-&nbsp
+	<a href="http://www.reg.niu.edu/regrec/courses/sched.shtml" target="_blank">Undergraduate Catalog</a>
+	<BR><BR>
+
+	Highlight: <select id="courseHighlighter">
+		<option value="None">None</option>
+		<option value="AreaStudies">Area Studies</option>
+		<option value="GenEd">General Education</option>
+		<option value="GIS">GIS Certificate</option>
+	</select>
+	
+	<select id="placeHighlighter">
+		<option value="OnCampus">On Campus</option>
+		<option value="Online">Online</option>
+	</select>
+
+	<BR><BR>
+	
+	<table align="center" width="800">
+		<tr>
+			<th align="left">Course</th>
+			<th>F15</th>
+			<th>S16</th>
+			<th>F16</th>
+			<th>S17</th>
+		</tr>
+		<tr>
+			<td class="course GenEd">GEOG 101: Introduction to Environmental Geography</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_101.png"></div>
+			</td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+		</tr>
+		<tr>
+			<td class="course GenEd">GEOG 102: Introduction to Environmental Geography Laboratory</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_102.png"></div>
+			</td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+		</tr>
+		<tr>
+			<td class="course GenEd">GEOG 105: Introduction to the Atmosphere</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_105.png"></div>
+			</td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+		</tr>
+		<tr>
+			<td class="course GenEd">GEOG 106: Introduction to the Atmosphere Laboratory</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_106.png"></div>
+			</td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+		</tr>
+		<tr>
+			<td class="course">GEOG 150: Introduction to Geomatics</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_150.png"></div>
+			</td>
+			<td></td>
+			<td class="OnCampus"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="course GenEd AreaStudies">GEOG 202: World Regional Geography</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_202.png"></div>
+			</td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+		</tr>
+		<tr>
+			<td class="course GenEd">GEOG 204: Geography of Economic Activities</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_204.png"></div>
+			</td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+		</tr>
+		<tr>
+			<td class="course GenEd">GEOG 253: Environment and Society</td>
+			<td class="OnCampus Online">
+				<div class="schedule"><img src="f15_253.png"></div>
+			</td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+		</tr>
+		<tr>
+			<td class="course GIS">GEOG 256: Maps and Mapping</td>
+			<td class="OnCampus Online">
+				<div class="schedule"><img src="f15_256.png"></div>
+			</td>
+			<td class="OnCampus Online"></td>
+			<td class="OnCampus Online"></td>
+			<td class="OnCampus Online"></td>
+		</tr>
+		<tr>
+			<td class="course">GEOG 300: Proseminar</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_300.png"></div>
+			</td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+			<td class="OnCampus"></td>
+		</tr>
+		<tr>
+			<td class="course">GEOG 302: Soil Science</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_302.png"></div>
+			</td>
+			<td></td>
+			<td class="OnCampus"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="course">GEOG 303: Water Resources and the Environment</td>
+			<td class="Online">
+				<div class="schedule"><img src="f15_303.png"></div>
+			</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="course">GEOG 304: Transportation Geography</td>
+			<td class="OnCampus">
+				<div class="schedule"><img src="f15_304.png"></div>
+			</td>
+			<td></td>
+			<td class="OnCampus"></td>
+			<td></td>
+		</tr>
+		
+	<script>
+	<!-- http://jsfiddle.net/9RxLM/ -->
+		$("td").mouseover(function() {
+			$(this).children(".schedule").show();
+		}).mouseout(function() {
+			$(this).children(".schedule").hide();
+		});
+		$(".course").mouseover(function() {
+			$(this).children(".schedule").show();
+		}).mouseout(function() {
+			$(this).children(".schedule").hide();
+		});
+		
+		$("#courseHighlighter").change(function () {
+			// Set all rows to no background
+			$('td.course').css('background-color', '');
+			
+			// Change the selected row's color to one
+			$('.'.concat(this.value)).css('background-color', 'LightCyan');
+		});		
+
+		$("#placeHighlighter").change(function () {
+			// Set all rows to no background
+			$('td').not('.course').css('background-color', 'White');
+			
+			// Change the selected row's color to one
+			$('.'.concat(this.value)).css('background-color', 'LightCyan');
+		});		
+
+		
+	</script>		
+</body>
+</html>
+	
