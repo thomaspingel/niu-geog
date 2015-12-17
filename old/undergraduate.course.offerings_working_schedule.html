@@ -32,12 +32,13 @@
 			padding: 20px 50px; 
 			background-color: white;
 		}
-		.desc_frame {
-			border:0;
-			scrolling:no;
-			width:100%;
+		.description h1{
+			font-size: large;
 		}
-		
+		.description h2{
+			font-size: medium; 
+			margin-bottom: -10px;
+		}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
 
@@ -69,42 +70,57 @@
 			<th align="left">Course</th>
 			<th>F15</th>
 			<th>S16</th>
-			<th>Summer</th>
 			<th>F16</th>
 			<th>S17</th>
 		</tr>
 		<tr>
 			<td class="course gened nes">GEOG 101: Introduction to Environmental Geography
 				<div class="description">
-					<iframe class="desc_frame" src="classes/geog_101.html" onload="resizeIframe(this)"></iframe>
+					<h1>GEOG 101: Introduction to Environmental Geography</h1>
+					<h2>Keywords</h2>
+					<p>General Education (Nature and Technology), Natural Environmental Systems (NES)</p>
+					<h2>Prerequisites</h2>
+					<p>None</p>
+					<h2>Required Texts</h2>
+					<p>Arbogast, Alan. Discovering Physical Geography, 2nd edition.</p>
+					<h2>Course Description</h2>
+					<p>This course provides a broad survey of the physical environment including topics such as vegetation and plant ecology, rocks and weathering, landforms, surficial processes, and soils. An emphasis is placed on explaining and appreciating the physical landscape and environment. At the end of this course, students will be able to explain spatial patterns in earth’s physical environment, understand the Earth’s physical processes that are responsible for shaping Earth’s surface over time, utilize and interpret various types of geographic data, imagery and maps and understand human impacts on the environment and how environmental conditions affect human activities.</p>
+					<p>A separate 1-credit laboratory course GEOG 102 can be taken concurrently with this course or any semester following. GEOG 102 will provide a hands-on introduction to basic techniques used to study elements of natural environmental systems. Taking GEOG 102 may enhance your understanding of the materials in GEOG 101 (this course). Check with your advisor regarding your department and college graduation requirements. GEOG 102 will meet the first week of the semester.</p>
+					<h2>Course Format</h2>
+					<p>Mixture of lecture, online and in class quizzes, discussion, and assigned readings.</p>
 				</div>
 			</td>
-			<td id="this_fall"></td>
-			<td id="this_spring"></td>
-			<td id="this_summer"></td>
-			<td id="next_fall"></td>
-			<td id="next_spring"></td>
+			<td>Campus<div class="schedule"><img src="f15_101.png"></div></td>
+			<td>Campus</td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td class="course gened nes">GEOG 102: Introduction to Environmental Geography Laboratory
-				<div class="description">
-					<iframe class="desc_frame" src="classes/geog_102.html"></iframe>
+								<div class="description">
+					<h1>GEOG 101: Introduction to Environmental Geography</h1>
+					<h2>Keywords</h2>
+					<p>General Education (Nature and Technology), Natural Environmental Systems (NES)</p>
+					<h2>Prerequisites</h2>
+					<p>None</p>
+					<h2>Course Description</h2>
+					<p>This course provides a basic understanding of the sciences of the atmosphere: meteorology and climatology. Course content includes atmospheric composition and structure, clouds, precipitation, and atmospheric motion and winds. The course content also includes organized weather systems, including air masses, fronts, and severe weather. The science of climatology includes a discussion of global climates, circulation, wind systems, and climate change. The broad student learning outcomes focus on introducing the following skills: communication, information technology literacy, interdisciplinary understanding, quantitative reasoning, and scientific methods reasoning.</p>
+					<p>A laboratory course (GEOG 102) that stresses applications of the material discussed in GEOG 106 may be taken concurrently, or during any ensuing term. Students do NOT need to enroll in the lab to receive credit for GEOG 105.</p>
+					<h2>Course Format</h2>
+					<p>Mixture of lecture, online and in class quizzes, discussion, and assigned readings.</p>
 				</div>
 			</td>
-			<td id="this_fall"></td>
-			<td id="this_spring"></td>
-			<td id="this_summer"></td>
-			<td id="next_fall"></td>
-			<td id="next_spring"></td>
+			<td>Campus<div class="schedule"><img src="f15_102.png"></div></td>
+			<td>Campus</td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
-			<td class="course gened nes met">GEOG 105: Introduction to the Atmosphere
-			</td>
-			<td id="this_fall"></td>
-			<td id="this_spring"></td>
-			<td id="this_summer"></td>
-			<td id="next_fall"></td>
-			<td id="next_spring"></td>
+			<td class="course gened nes met">GEOG 105: Introduction to the Atmosphere</td>
+			<td>Campus<div class="schedule"><img src="f15_105.png"></div></td>
+			<td>Campus<BR>Online</td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td class="course gened nes met">GEOG 106: Introduction to the Atmosphere Laboratory</td>
@@ -625,11 +641,6 @@
 
 		
 	</script>		
-	<script type="text/javascript">
-	  function resizeIframe(iframe) {
-		iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-	  }
-	</script>  
 </body>
 </html>
 	
