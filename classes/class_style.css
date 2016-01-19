@@ -1,7 +1,17 @@
-h1{
-	font-size: large;
+body {
+	background-color: #F7F5E8;
+	padding: 20px 0px 0px 0px;
+	color: #000;
 }
-h2{
-	font-size: medium; 
-	margin-bottom: -10px;
+
+#page{
+	display: table;
+	width: 750px;
+	margin: auto;
+	background-color: #FFF;
+	box-shadow: 5px 5px 5px #333;
+	padding: 50px 30px 100px 30px;
 }
+
+h2{font-size:14pt;}
+h1{text-align: center; font-size:16pt;}
