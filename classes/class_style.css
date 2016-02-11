@@ -4,14 +4,22 @@ body {
 	color: #000;
 }
 
-#page{
+#page {
 	display: table;
 	width: 750px;
 	margin: auto;
-	background-color: #FFF;
+	background-color: white;
 	box-shadow: 5px 5px 5px #333;
 	padding: 50px 30px 100px 30px;
 }
 
-h2{font-size:14pt;}
-h1{text-align: center; font-size:16pt;}
+#gened {
+	padding: 20px;
+}
+
+#students {
+	backaground-color: yellow;
+}
+
+h2 {font-size:14pt;}
+h1 {text-align: center; font-size:16pt;}
